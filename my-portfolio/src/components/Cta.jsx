@@ -1,4 +1,4 @@
-import image from '../assets/cta.png'
+import image from '../assets/cta.jpg'
 
 const Cta = () => {
     return (

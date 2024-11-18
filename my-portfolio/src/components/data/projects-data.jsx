@@ -1,13 +1,13 @@
-import svelte_project from '../../assets/svelte-project.png'
-import website from '../../assets/website.png'
-import portfolio from '../../assets/portfolio.png'
-import javascript from '../../assets/logo-javascript.png'
-import html from '../../assets/logo-html.png'
-import css from '../../assets/logo-css.png'
-import svelte from '../../assets/logo-svelte.png'
-import tailwind from '../../assets/logo-tailwind.png'
-import react from '../../assets/logo-react.png'
-import daiyui from '../../assets/logo-daisyui.png'
+import svelte_project from '../../assets/svelte-project.jpg'
+import website from '../../assets/website.jpg'
+import portfolio from '../../assets/portfolio.jpg'
+import javascript from '../../assets/logo-javascript.jpg'
+import html from '../../assets/logo-html.jpg'
+import css from '../../assets/logo-css.jpg'
+import svelte from '../../assets/logo-svelte.jpg'
+import tailwind from '../../assets/logo-tailwind.jpg'
+import react from '../../assets/logo-react.jpg'
+import daiyui from '../../assets/logo-daisyui.jpg'
 
 export const projects = [
     {

@@ -1,5 +1,6 @@
-import hello from '../assets/hello_world.png'
-import laptop from '../assets/laptop.png'
+
+import hello from '../assets/hello_world.jpg'
+import laptop from '../assets/laptop.jpg'
 
 const About = () => {
     return (

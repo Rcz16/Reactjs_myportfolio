@@ -1,5 +1,5 @@
-import design from '../assets/design.png'
-import code from '../assets/code.png'
+import design from '../assets/design.jpg'
+import code from '../assets/code.jpg'
 
 const Experiences = () => {
     return (
