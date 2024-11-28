@@ -2,10 +2,10 @@ import person from '../assets/person.jpg';
 
 const Skills = () => {
     return (
-        <div className="bg-gradient-to-t from-black via-gray-950 to-white p-10 pb-40" >
+        <div className="bg-gradient-to-t from-black via-gray-950 to-white p-10 pb-40"  >
             <div className="grid grid-cols-[1fr_40%] grid-rows-[15rem_90%] items-center min-h-screen ">
                 {/* Main Header and Image */}
-                <div className="row-start-2" id='skills'>
+                <div className="row-start-2" id='skills' >
                     <div className="grid grid-cols-[25%_29%_23%_23%] grid-rows-[50%_50%] content-start" >
                         <div className="col-span-5"  >
                             <h1 className=" text-white text-7xl uppercase ">Skills <br />& Services</h1>

@@ -11,7 +11,7 @@ const Projects = () => {
                         {projects.map((projects) => (
                             <div key={projects.name} className="group relative">
                                 <div className="bg-gray-50 rounded-lg row-start-1">
-                                    <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <div className="relative h-80 w-full overflow-hidden rounded-lg m:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                                         <img alt={projects.imageAlt} src={projects.imageSrc} className="size-full object-cover object-center" />
                                     </div>
                                     <div className="p-3">
@@ -23,10 +23,10 @@ const Projects = () => {
                                         </h3>
                                         <p className=" text-sm text-gray-500 h-[30px]">{projects.description}</p>
                                     </div>
-                                    <div className="flex flex-row p-1">
+                                    <div className="flex flex-row p-1 bg-gray-50">
                                         {projects.logo.map((logo, index) => (
                                             <div key={index} >
-                                                <img src={logo} className="w-[40px] h-[40px] object-cover object-center" />
+                                                <img src={logo} className="w-[40px] h-[40px] object-cover object-center "  />
                                             </div>
                                         ))}
                                     </div>

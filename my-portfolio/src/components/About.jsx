@@ -8,12 +8,7 @@ const About = () => {
             <div className="ms-3">
                 <h1 className="text-7xl uppercase mb-4 text-black">Learn <br /> About Me</h1>
                 <p className="text-xl text-justify text-gray-700 max-w-2xl">
-                    To obtain a job in a respectable company where I can use my technical
-                    expertise and strategic thinking to promote innovation, maximize IT
-                    infrastructure, and support the company&apos;s growth. Well-known for my
-                    creative and strategic thinking, superb problem-solving skills, and
-                    dedication to attaining remarkable outcomes, I am excited to
-                    contribute my enthusiasm and expertise to a cooperative team setting.
+                    I am a passionate Web/Software Developer and Graphic Designer with a proven ability to deliver user-focused and impactful solutions. With experience in creating SEO-optimized websites using the SvelteKit framework, I ensure enhanced visibility and performance, while leveraging my expertise in JavaScript, CSS, HTML, and Svelte to build responsive and visually appealing interfaces. I have also developed scalable software services using ExtJS, PHP (WebSocket), and MySQL, addressing complex business needs with efficiency and precision. Additionally, my background in graphic design allows me to craft compelling visuals and designs using tools like Figma, Photoshop, and Canva, ensuring seamless alignment with brand identity. My unique blend of technical expertise and creative skills positions me to contribute effectively to innovative and user-driven projects.
                 </p>
             </div>
             <div className="relative mt-10">

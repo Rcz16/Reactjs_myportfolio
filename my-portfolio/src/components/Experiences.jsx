@@ -25,7 +25,7 @@ const Experiences = () => {
                         <div className="carousel-item w-full">
                             <div className=" text-black p-5">
                                 <h1 className="text-xl pb-1">Support Associate / UI Designer intern</h1>
-                                <h2 className="text-sm pb-1 list-disc ps-5">
+                                <h2 className="pb-3">
                                     Northeast Business Solution
                                     Technical Support / Web Designer  | OJT | January 2024 - April 2024</h2>
                                 <ul className="text-sm pb-1 list-disc ps-5">
@@ -52,7 +52,6 @@ const Experiences = () => {
                             <div className=" text-black p-5">
                                 <h1 className="text-xl pb-1">Virtual Assistant</h1>
                                 <h2 className="pb-3">
-                                    Status Quo Volleyball League
                                     Amazon Seller Central
                                     Traniee| January 2023 - March 2023</h2>
                                 <ul className="text-sm pb-1 list-disc ps-5">
@@ -87,14 +86,14 @@ const Experiences = () => {
                         <img
                             src={code}
                             alt="code"
-                            className="object-cover w-[23rem] h-[12.5rem] rounded-md "
+                            className="object-cover w-[23rem] h-[auto] rounded-md "
                         />
                     </div>
                     <div className="absolute bottom-[0px] left-[250px] rotate-[20deg] transform  rounded-xl bg-white transition duration-300 hover:scale-105">
                         <img
                             src={design}
                             alt="design"
-                            className="object-cover  w-[15rem] h-[8.5rem] rounded-md "
+                            className="object-cover  w-[15rem] h-[auto] rounded-md "
                         />
                     </div>
                 </div>
