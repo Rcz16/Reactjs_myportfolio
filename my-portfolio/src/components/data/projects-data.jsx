@@ -3,7 +3,6 @@ import website from '../../assets/website.jpg'
 import portfolio from '../../assets/portfolio.jpg'
 import javascript from '../../assets/logo-javascript.png'
 import ui_design from '../../assets/uidesign.png'
-import html from '../../assets/logo-html.png'
 import figma from '../../assets/logo-figma.png'
 import photoshop from '../../assets/logo-photoshop.png'
 import illustrator from '../../assets/logo-illustrator.png'
@@ -12,6 +11,7 @@ import svelte from '../../assets/logo-svelte.png'
 import tailwind from '../../assets/logo-tailwind.png'
 import react from '../../assets/logo-react.png'
 import daiyui from '../../assets/logo-daisyui.png'
+import logoHtml from '../../assets/logo-html.png'
 
 export const projects = [
     {
@@ -21,7 +21,7 @@ export const projects = [
         imageAlt: 'meet-up data',
         href: 'https://sveltekit-project-meet-up-p164.vercel.app/',
         logo: [
-            html,
+            logoHtml,
             css,
             javascript,
             svelte
@@ -46,7 +46,7 @@ export const projects = [
         imageAlt: 'website',
         href: 'https://www.payrollsolutions.ph/', 
         logo:[
-            html,
+            logoHtml,
             css,
             javascript,
             svelte
@@ -59,7 +59,7 @@ export const projects = [
         imageAlt: 'portfolio',
         href: '#',
         logo: [
-            html,
+            logoHtml,
             css,
             javascript,
             react,
