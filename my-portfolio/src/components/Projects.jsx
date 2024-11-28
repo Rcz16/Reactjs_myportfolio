@@ -15,13 +15,13 @@ const Projects = () => {
                                         <img alt={projects.imageAlt} src={projects.imageSrc} className="size-full object-cover object-center" />
                                     </div>
                                     <div className="p-3">
-                                        <h3 className="mt-2 text-base font-semibold text-gray-900 ">
+                                        <h3 className="mt-1 text-base font-semibold text-gray-900 ">
                                             <a href={projects.href}>
                                                 <span className="absolute inset-0" />
                                                 {projects.name}
                                             </a>
                                         </h3>
-                                        <p className=" text-sm text-gray-500 h-[30px]">{projects.description}</p>
+                                        <p className=" mt-2 text-sm text-gray-500 ">{projects.description}</p>
                                     </div>
                                     <div className="flex flex-row p-1 bg-gray-50">
                                         {projects.logo.map((logo, index) => (
