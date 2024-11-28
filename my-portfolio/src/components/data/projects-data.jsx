@@ -11,7 +11,6 @@ import svelte from '../../assets/logo-svelte.png'
 import tailwind from '../../assets/logo-tailwind.png'
 import react from '../../assets/logo-react.png'
 import daiyui from '../../assets/logo-daisyui.png'
-import logoHtml from '../../assets/logo-html.png'
 
 export const projects = [
     {
@@ -21,7 +20,6 @@ export const projects = [
         imageAlt: 'meet-up data',
         href: 'https://sveltekit-project-meet-up-p164.vercel.app/',
         logo: [
-            logoHtml,
             css,
             javascript,
             svelte
@@ -46,7 +44,7 @@ export const projects = [
         imageAlt: 'website',
         href: 'https://www.payrollsolutions.ph/', 
         logo:[
-            logoHtml,
+            
             css,
             javascript,
             svelte
@@ -59,7 +57,6 @@ export const projects = [
         imageAlt: 'portfolio',
         href: '#',
         logo: [
-            logoHtml,
             css,
             javascript,
             react,
