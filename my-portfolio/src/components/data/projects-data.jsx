@@ -45,8 +45,8 @@ export const projects = [
         description: 'Developed a fully functional and fully responsive website, managing all aspects of frontend development and design. Leveraged SvelteKit for the framework to ensure optimized performance, Figma for creating wireframes, and Photoshop and Canva for picture editing. Delivered a visually appealing user interface aligned with brand guidelines, enhancing user engagement across devices.',
         imageSrc: website,
         imageAlt: 'website',
-        href: 'https://www.payrollsolutions.ph/', 
-        logo:[
+        href: 'https://www.payrollsolutions.ph/',
+        logo: [
             html,
             css,
             javascript,

@@ -17,9 +17,6 @@ export const designs = [
         img: image1,
     },
     {
-        img: image1,
-    },
-    {
         img: image2,
     },
     {
@@ -54,8 +51,5 @@ export const designs = [
     },
     {
         img: image13,
-    },
-    {
-        img: image1,
     },
 ];
