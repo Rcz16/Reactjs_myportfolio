@@ -12,8 +12,10 @@ export default function App() {
   return (
     <>
     <Header/>
-    <Hero/>
-    <About/>
+    <div className="relative">
+        <Hero/>
+        <About className="sticky top-0 h-screen" />
+    </div>
     <Experiences/>
     <Skills/>
     <Designs/>

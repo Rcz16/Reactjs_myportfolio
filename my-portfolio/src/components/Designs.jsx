@@ -43,7 +43,7 @@ const Designs = () => {
                         className="group flex flex-col gap-3 md:h-[640px] md:flex-row md:gap-[1.5%]"
                     >
                         {designs.map((designs, index) => (
-                            <li
+                            <li 
                                 onClick={() => setActiveItem(index)}
                                 aria-current={activeItem === index}
                                 className={classNames(
@@ -57,11 +57,11 @@ const Designs = () => {
                             >
                                 <div className="relative h-full w-full overflow-hidden rounded-2xl bg-[#000000]">
                                     <img
-                                        className="absolute left-1/2 top-1/2 h-150 w-auto max-w-none -translate-y-1/2 object-cover md:left-1/2 md:h-[640px] md:w-[240px] -translate-x-1/2"
+                                        className="absolute left-1/2 top-1/2 h-[45rem] w-auto max-w-none -translate-y-1/2 object-cover md:left-1/2 lg:h-[640px] lg:w-[240px] -translate-x-1/2"
                                         src={designs.img}
                                         alt={designs.name}
-                                        width="590px"
-                                        height="640px"
+                                        width="500px"
+                                        height="500px"
                                     />
                                     <div
                                         className={classNames(

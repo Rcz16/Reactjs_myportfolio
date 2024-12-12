@@ -9,7 +9,7 @@ const Skills = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-[25%_25%_23%_23%] lg:grid-rows-[auto] gap-4 lg:gap-2">
                         {/* Header */}
                         <div className="col-span-full lg:col-span-5 lg:row-start-1">
-                            <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase">
+                            <h1 className="text-white text-5xl sm:text-5xl md:text-6xl lg:text-7xl uppercase">
                                 Skills <br />& Services
                             </h1>
                         </div>
