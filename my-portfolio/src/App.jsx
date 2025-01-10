@@ -16,7 +16,6 @@ export default function App() {
     <About/>
     <Experiences/>
     <Skills/>
-    <Designs/>
     <Projects/> 
     <Cta/>
     </>

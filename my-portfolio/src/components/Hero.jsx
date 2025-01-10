@@ -4,8 +4,8 @@ const Hero = () => {
 
     return (
         <>
-            <div className="hero bg-white min-h-screen sx:min-h-[80vh] sm:min-h-[80vh] md:min-h-[80vh] lg:min-h-screen xxl:min-h-screen" id='hero'>
-                <div className="mx-auto max-w-screen px-10 sx:px-6 lg:px-10 absolute xs:max-w-[320px] sm:max-w-[425px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1440px]">
+            <div className="hero bg-white min-h-screen sx:min-h-[80vh] sm:min-h-[80vh] md:min-h-[110vh] lg:min-h-screen xxl:min-h-screen" id='hero'>
+                <div className="mx-auto max-w-screen px-10 sx:px-0 lg:px-10 absolute xs:max-w-[320px] sm:max-w-[425px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1440px]">
                     <div className="mx-auto max-w-2xl py-16 sx:py-16 sm:py-32 md:py-32 xl:py-32">
                         <div className="hero-content text-center ">
                             <div className=" ">
