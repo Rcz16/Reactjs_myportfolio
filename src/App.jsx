@@ -12,12 +12,11 @@ export default function App() {
   return (
     <>
     <Header/>
-    <div className="relative">
-        <Hero/>
-        <About className="sticky top-0 h-screen" />
-    </div>
+    <Hero/>
+    <About/>
     <Experiences/>
     <Skills/>
+    <Designs/>
     <Projects/> 
     <Cta/>
     </>
