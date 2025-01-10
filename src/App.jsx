@@ -18,7 +18,6 @@ export default function App() {
     </div>
     <Experiences/>
     <Skills/>
-    <Designs/>
     <Projects/> 
     <Cta/>
     </>

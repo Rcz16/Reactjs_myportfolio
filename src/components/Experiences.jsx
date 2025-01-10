@@ -6,10 +6,10 @@ const Experiences = () => {
     return (
         <div className="min-h-screen bg-white p-10 xs:p-0 items-center" id='experiences'>
             <div className="grid sx:grid-cols-1 lg:grid-cols-2 items-center">
-                <div className="" >
-                    <h1 className="xl:text-[100px] lg:text-7xl md:text-[90px] sm:text-5xl sx:text-5xl uppercase text-black">Work<br />Experiences</h1>
+                <div className="ms-3 sx:ms-0" >
+                    <h1 className="xl:text-[100px] lg:text-7xl md:text-[90px] sm:text-5xl sx:text-4xl uppercase text-black">Work<br />Experiences</h1>
                     <p className="xl:text-xl lg:text-md md:text-[18px] sm:text-[11.5px] sx:text-[9.5px] ps-2 sx:ps-0 mb-4 text-gray-800">hold shift + scroll down to see my other experiences</p>
-                    <div className="carousel rounded-box xxl:w-[50] xl:w-[45rem] lg:w-[35rem] md:w-[25rem] sm:w-[20rem] sx:w-[20rem] mx-auto ">
+                    <div className="carousel rounded-box xxl:w-[50] xl:w-[45rem] lg:w-[35rem] md:w-[25rem] sm:w-[20rem] sx:w-[15rem] mx-auto ">
                         {experiences.map((experiences) => (
                             <div key={experiences} className="carousel-item w-full">
                                 <div className="text-black sx:p-1 lg:p-5">

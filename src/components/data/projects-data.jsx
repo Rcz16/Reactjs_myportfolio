@@ -28,7 +28,7 @@ export const projects = [
         ],
     },
     {
-        name: 'Ui design',
+        name: 'Figma Design Portfolio',
         description: 'This process emphasizes creating visually appealing, responsive, and user-friendly interfaces through wireframing, user feedback, and a user-centered approach to ensure accessibility, functionality, and adaptability.',
         imageSrc: uidesign,
         imageAlt: 'ui_design',
@@ -40,7 +40,7 @@ export const projects = [
         ],
     },
     {
-        name: 'My portfolio',
+        name: 'Graphic Design Portfolio',
         description: 'Updated my Canva portfolio by converting it into a fully responsive, hard-coded website, ensuring seamless functionality, performance, and accessibility across all devices.',
         imageSrc: portfolio,
         imageAlt: 'portfolio',
